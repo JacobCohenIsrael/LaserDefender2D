@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2345862026875545861
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8150743962646522999, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_Name
+      value: TankEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522997, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150743962646522996, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ee643b91819f8754381d3cef4418ac56,
+        type: 3}
+    - target: {fileID: 1878585757367228444, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: health
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878585757367228444, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: explosionDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878585757367228444, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878585757367228444, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: maxTimeBetweenShots
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878585757367228444, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: minTimeBetweenShots
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878585757367228444, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: enemyProjectile
+      value: 
+      objectReference: {fileID: 6504338123658529418, guid: c2512e44711a4f44e8b5b279cfbde190,
+        type: 3}
+    - target: {fileID: 1878585757367228444, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: shootSoundVolume
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6120993146917428807, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672315280487171363, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: damage
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329310905211437040, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329310905211437040, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554897490294643503, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554897490294643503, guid: 43f98be2ce54c1647834c916ffc1a77f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 43f98be2ce54c1647834c916ffc1a77f, type: 3}
